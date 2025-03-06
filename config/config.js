@@ -45,9 +45,9 @@ export const intro = {
 export const about = {
   title: "Introduction",
   description: [
-    "I'm currently a student at the University of Michigan studying Computer Science and Electrical Engineering; my concentration in the EE side is Digital Signal Processing (DSP).",
+    "I'm currently a student at the University of Michigan studying Computer Science and Electrical Engineering; my concentration in the EE side is Digital Signal Processing.",
     "My interests lie in programming, project building with Raspberry Pis and Arduinos, and sustainable energy.",
-    "When I’m not programming, I enjoy running, biking, and playing piano.",
+    "In my free time, I enjoy running, biking, playing piano.",
   ],
 }
 
@@ -66,7 +66,7 @@ export const work = {
     },
     {
       title: "Institute of Water Research",
-      description: "Assembly, troubleshooting, and repairment of water-sample devices.",
+      description: "Assembly, troubleshooting, and repairment of water-sampling devices.",
       icons: null,
     },
   ],
@@ -107,6 +107,10 @@ export const projects = {
           icon: faPagelines,
           link: "https://drive.google.com/file/d/1ELgQ4XeTCfD63KUMdJKm9Mbm9-hJwtUy/view",
         },
+        {
+          icon: faGithub,
+          link: "https://github.com/umjoshwu/eecs300/tree/main",
+        }
       ]
     },
     {
@@ -126,6 +130,10 @@ export const projects = {
         {
           icon: faPagelines,
           link: "https://sites.google.com/umich.edu/eecs-351-presentation/home?authuser=1#h.xz579nqr2pen",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/umjoshwu/Denoising2",
         }
       ]
     },
