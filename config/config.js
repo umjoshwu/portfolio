@@ -30,7 +30,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  description: "A Computer asdsdada creating mobile apps and static websites.",
   image: profile.src,
   buttons: [
     {
