@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Josh",
   links: [
     {
       title: "About",
@@ -21,16 +21,12 @@ export const navigation = {
     {
       title: "Links",
       link: "/links",
-    },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm js",
-  description: "A Computer asdsdada creating mobile apps and static websites.",
+  title: "Josh Wu",
+  description: "Meow",
   image: profile.src,
   buttons: [
     {
