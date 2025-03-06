@@ -29,7 +29,7 @@ export const navigation = {
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
+  title: "Hey, I'm js",
   description: "A Computer asdsdada creating mobile apps and static websites.",
   image: profile.src,
   buttons: [
