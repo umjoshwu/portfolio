@@ -1,10 +1,10 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faPagelines, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Josh",
+  name: "Personal",
   links: [
     {
       title: "About",
@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Josh Wu",
-  description: "Meow",
+  description: "EECS Student @ Univeristy of Michigan",
   image: profile.src,
   buttons: [
     {
@@ -36,95 +36,113 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://docs.google.com/document/d/1uasVjEY9KqQDk8JC4PMiadEfqnzcpb2McdmJTM3QzeA/edit?tab=t.0",
       isPrimary: false,
     },
   ],
 }
 
 export const about = {
-  title: "Who I am",
+  title: "Introduction",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I'm currently a student at the University of Michigan studying Computer Science and Electrical Engineering; my concentration in the EE side is Digital Signal Processing (DSP).",
+    "My interests lie in programming, project building with Raspberry Pis and Arduinos, and sustainable energy.",
+    "When I’m not programming, I enjoy running, biking, and playing piano.",
   ],
 }
 
 export const work = {
-  title: "What I do",
+  title: "Work Experiences",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Amazon Web Services",
+      description: "Incoming Summer 2025",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "ENSCO, Inc",
+      description: "Built an interactive GUI for NI-DAQ devices.",
       icons: null,
-    }
+    },
+    {
+      title: "Institute of Water Research",
+      description: "Assembly, troubleshooting, and repairment of water-sample devices.",
+      icons: null,
+    },
   ],
 }
 
 export const projects = {
-  title: "Projects",
+  title: "Projects & Research",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "Hidden Camera Detector",
+      description: "Infared and ToF sensor system detecting hidden cameras via lens reflections and heat using signal processing algorithms.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "https://github.com/umjoshwu",
         },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "High-Quality Image Restoration",
+      description: "OpenAI and Hugging Face model usage for deblurring and super-resolution.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+          icon: faPagelines,
+          link: "https://drive.google.com/file/d/1W-Xu4kVZJqD19d3tuc_ZvZkica7Qpr4l/view",
         },
         {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          icon: faGithub,
+          link: "https://github.com/Ryankwon03/Reordered-Noise-Processing-in-Super-Resolution",
+        }
+      ]
+    },
+    {
+      title: "Room Capacity Detector",
+      description: "Room Capacity counting system using an Arduino, Time-of-Flight sensor, and Passive Infrared sensor to accurately track individuals walking through a door. ",
+      icons: [
+        {
+          icon: faPagelines,
+          link: "https://drive.google.com/file/d/1ELgQ4XeTCfD63KUMdJKm9Mbm9-hJwtUy/view",
         },
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "UM Space Physics Lab",
+      description: "Lead the development of solar burst classification and detection; deloped and optimized a CNN using PyTorch and leveraged preprocessing techniques.",
       icons: [
         {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
-        },
+          icon: faPagelines,
+          link: "https://drive.google.com/file/d/1rIMWpGbR1SCYHyEUELZQNEg8U6xpPaEs/view",
+        }
       ]
     },
+    {
+      title: "Image Denoising",
+      description: "Denoising manually noised models with ML pre-trained models and classical techniques such as Biliteral and Wavelet Denoising Filters.",
+      icons: [
+        {
+          icon: faPagelines,
+          link: "https://sites.google.com/umich.edu/eecs-351-presentation/home?authuser=1#h.xz579nqr2pen",
+        }
+      ]
+    },
+    
   ],
 }
 
 export const contact = {
-  title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  title: "Contact Info",
+  description: "Feel free to reach me at joshwu8@gmail.com!",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:joshwu8@gmail.com",
       isPrimary: true,
     },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
+
   ]
 }
 
@@ -138,28 +156,15 @@ export const SEO = {
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@umjoshwu",
   cards: [
     {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
-    },
-    {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/umjoshwu/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/joshua-wu-27b206258/",
     },
   ]
 }
