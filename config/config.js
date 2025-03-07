@@ -66,7 +66,7 @@ export const work = {
     },
     {
       title: "Institute of Water Research",
-      description: "Assembly, troubleshooting, and repairment of water-sampling devices.",
+      description: "Assembly, troubleshooting, and repairment of solar water-sampling devices.",
       icons: null,
     },
   ],
