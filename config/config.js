@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Josh Wu",
-  description: "EECS Student @ Univeristy of Michigan",
+  description: "EECS Student @ The University of Michigan",
   image: profile.src,
   buttons: [
     {
@@ -87,7 +87,7 @@ export const projects = {
     },
     {
       title: "High-Quality Image Restoration",
-      description: "OpenAI and Hugging Face model usage for deblurring and super-resolution.",
+      description: "OpenAI and Hugging Face model usage for deblurring and super-resolution, denoising with multiple image filters.",
       icons: [
         {
           icon: faPagelines,
