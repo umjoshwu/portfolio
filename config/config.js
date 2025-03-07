@@ -129,7 +129,7 @@ export const projects = {
       icons: [
         {
           icon: faPagelines,
-          link: "https://sites.google.com/umich.edu/eecs-351-presentation/home?authuser=1#h.xz579nqr2pen",
+          link: "https://sites.google.com/umich.edu/eecs-351-presentation/home?authuser=1",
         },
         {
           icon: faGithub,
