@@ -76,6 +76,16 @@ export const projects = {
   title: "Projects & Research",
   cards: [
     {
+      title: "YouTube Repeat Extension",
+      description: "Chrome extension that allows timestamping and repeating sections of YouTube videos with keyboard shortcuts using JavaScript, html, css.",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/umjoshwu/YT-Repeat-Extension/tree/main",
+        },
+      ]
+    },
+    {
       title: "Hidden Camera Detector",
       description: "Infared and ToF sensor system detecting hidden cameras via lens reflections and heat using signal processing algorithms.",
       icons: [
