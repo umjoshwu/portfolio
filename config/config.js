@@ -176,12 +176,16 @@ export const links = {
   title: "@umjoshwu",
   cards: [
     {
-      title: "My GitHub",
+      title: "GitHub",
       link: "https://github.com/umjoshwu/",
     },
     {
-      title: "My LinkedIn",
+      title: "LinkedIn",
       link: "https://www.linkedin.com/in/joshua-wu-27b206258/",
+    },
+    {
+      title: "Strava",
+      link: "https://strava.app.link/LbknZjLs5Rb",
     },
   ]
 }
